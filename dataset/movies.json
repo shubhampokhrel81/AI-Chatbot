@@ -1,5 +1,5 @@
 {
-  "intents": [
+  "movies": [
     {
       "tag": "greeting",
       "patterns": [
