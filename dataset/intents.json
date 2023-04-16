@@ -1,0 +1,80 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hey there",
+        "Hello",
+        "Hey",
+        "Hi"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Hey! What can I do for you?",
+        "Hi! How are you doing?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Bye! Take care!",
+        "See you later! Don't forget to catch a good movie!",
+        "Talk to you later! Enjoy your day!"
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "Can you recommend a good movie?",
+        "What's a good movie to watch?",
+        "I'm looking for a movie to watch",
+        "Do you have any movie suggestions?"
+      ],
+      "responses": [
+        "Sure! What genre are you interested in?",
+        "Absolutely! What type of movie are you in the mood for?",
+        "Of course! What kind of movie do you prefer?",
+        "Definitely! What type of movie are you interested in?"
+      ]
+    },
+    {
+      "tag": "comedy",
+      "patterns": [
+        "I like action movies",
+        "I'm in the mood for a comedy",
+        "Suggest comedy movies",
+        "another comedy",
+          "Suggest other comedy"
+      ],
+      "responses": [
+        "Great choice! Here are some recommendations for you: The Hangover (2009), Bridesmaids (2011), Superbad (2007), Mean Girls (2004), Step Brothers (2008)",
+        "Excellent! Here are some movie suggestions you might enjoy: This Is Spinal Tap (1984), Airplane! (1980)",
+        "Fantastic! Here are some options for you to check out:The Princess Bride (1987), Shaun of the Dead (2004), and The 40-Year-Old Virgin (2005)",
+        "Awesome! I like action comedy"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome! Enjoy the movie!",
+        "No problem! Have a great time!",
+        "My pleasure! Hope you enjoy the movie i suggested!",
+        "Anytime! Enjoy your movie!"
+      ]
+    }
+  ]
+}
