@@ -19,6 +19,8 @@ volumes/
 # Package files
 *.jar
 
+.ipynb_checkpoints/*
+
 # Maven
 target/
 dist/
