@@ -15,7 +15,6 @@
         "Hi there! How can I help you?",
         "Hey! What can I do for you?",
         "Hi! How are you doing?",
-        "Hi",
         "Hey how are you"
       ]
     },
@@ -97,7 +96,7 @@
       ],
       "responses": [
         "Sure, here are some romantics you might enjoy: The Notebook (2004), The Fault in Our Stars (2014), The Vow (2012), The Time Traveler's Wife (2009), A Walk to Remember (2002)",
-        "Absolutely! Romantic movies to watch: La La Land (2016), About Time (2013), The Big Sick (2017), The Proposal (2009)",
+        "Romantic movies to watch: La La Land (2016), About Time (2013), The Big Sick (2017), The Proposal (2009)",
         "Of course! Check out these: Pretty Woman (1990), When Harry Met Sally (1989), Love Actually (2003), The Princess Bride (1987)"
       ]
     },
@@ -167,22 +166,6 @@
       ]
     },
     {
-      "tag": "UnderstandQuery",
-      "patterns": [
-        "Do you understand what I am saying",
-        "Do you understand me",
-        "Do you know what I am saying",
-        "Do you get me",
-        "Comprendo",
-        "Know what I mean"
-      ],
-      "responses": [
-        "Well I wouldn't be a clever AI bot if I did not would I?",
-        "I read you loud and clear!",
-        "I do in deed!"
-      ]
-    },
-    {
       "tag": "Shutup",
       "patterns": [
         "Be quiet",
@@ -226,104 +209,12 @@
       ]
     },
     {
-      "tag": "insult",
-      "patterns": [
-        "you are dumb",
-        "shut up",
-        "idiot",
-        "fuck off",
-        "fuck",
-        "Shut up",
-        "Get lost",
-        "twat",
-        "fuck you",
-        "bitch"
-      ],
-      "responses": [
-        "Well that hurts :(",
-        "watch your mouth",
-        "Please do not swear",
-        "How rude",
-        "That is not very nice"
-      ]
-    },
-    {
-      "tag": "activity",
-      "patterns": ["what are you doing", "what are you upto"],
-      "responses": ["Talking to you, of course!"]
-    },
-    {
-      "tag": "exclaim",
-      "patterns": ["Awesome", "Great", "I know", "ok", "yeah"],
-      "responses": ["Yeah!", "Cool"]
-    },
-    {
-      "tag": "appreciate",
-      "patterns": [
-        "You are awesome",
-        "you are the best",
-        "you are great",
-        "you are good",
-        "You are very clever",
-        "You are smart",
-        "You are very intelligent",
-        "You are a genious",
-        "Clever dude",
-        "Genious",
-        "Clever",
-        "That was smart"
-      ],
-      "responses": ["Thank you, I was trained that way", "Thank you!"]
-    },
-    {
-      "tag": "nicetty",
+      "tag": "nicely",
       "patterns": ["it was nice talking to you", "good talk"],
       "responses": [
         "It was nice talking to you as well! Come back soon!",
         "I'm glad you enjoyed talking with me",
         "Can't wait to talk with you next time"
-      ]
-    },
-    {
-      "tag": "no",
-      "patterns": ["no", "nope"],
-      "responses": ["ok", "oh ok", "I'm sorry", "aww sorry : ("]
-    },
-    {
-      "tag": "greetreply",
-      "patterns": [
-        "i am good",
-        "I'm good",
-        "i am fine",
-        "I'm fine",
-        "i am doing good",
-        "I'm doing good",
-        "i am doing fine",
-        "I'm doing fine",
-        "good",
-        "I feel good",
-        "I feel very good"
-      ],
-      "responses": [
-        "Good to know!",
-        "I'm glad you're doing good",
-        "That's awesome!",
-        "Awesome!"
-      ]
-    },
-    {
-      "tag": "riddle",
-      "patterns": ["Ask me a riddle", "Ask me a question", "Riddle"],
-      "responses": [
-        "What two things can you never eat for breakfast?.....Lunch and Dinner!",
-        "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
-        " How can a girl go 25 days without sleep?.....She sleeps and night!",
-        "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
-        " What will you actually find at the end of every rainbow?.....The letter 'w'",
-        "What can be caught but never thrown?.....A cold!",
-        "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
-        " What 5-letter word becomes shorter when you add two letters to it?.....Short",
-        "Why can't a bike stand on it's own?.....It is two-tired."
       ]
     },
     {
