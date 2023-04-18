@@ -6,13 +6,17 @@
         "hey there",
         "Hello",
         "Hey",
-        "Hi"
+        "Hi",
+          "Hi, How are you",
+          "Fine"
       ],
       "responses": [
         "Hello! How can I assist you today?",
         "Hi there! How can I help you?",
         "Hey! What can I do for you?",
-        "Hi! How are you doing?"
+        "Hi! How are you doing?",
+          "Hi",
+          "Hey how are you"
       ]
     },
     {
@@ -25,6 +29,8 @@
       ],
       "responses": [
         "Goodbye! Have a great day!",
+          "Take care",
+          "See you",
         "Bye! Take care!",
         "See you later! Don't forget to catch a good movie!",
         "Talk to you later! Enjoy your day!"
@@ -46,13 +52,14 @@
       ]
     },
     {
-      "tag": "comedy",
+      "tag": "comedy movie",
       "patterns": [
-        "I like action movies",
+        "I like comedy movies",
         "I'm in the mood for a comedy",
         "Suggest comedy movies",
         "another comedy",
-          "Suggest other comedy"
+          "Suggest other comedy",
+          "recommend comedy movie"
       ],
       "responses": [
         "Great choice! Here are some recommendations for you: The Hangover (2009), Bridesmaids (2011), Superbad (2007), Mean Girls (2004), Step Brothers (2008)",
@@ -61,6 +68,53 @@
         "Awesome! I like action comedy"
       ]
     },
+      {
+  "tag": "drama movie",
+  "patterns": [
+    "I want to watch a drama movie",
+    "Any recommendations for a good drama?",
+    "Suggest some drama movies",
+    "I'm in the mood for something dramatic",
+    "What are some popular dramas?"
+  ],
+  "responses": [
+    "Sure, here are some great drama movies you might enjoy: The Shawshank Redemption (1994), The Godfather (1972), Schindler's List (1993), Forrest Gump (1994), A Star is Born (2018)",
+    "Absolutely! Here are some suggestions for dramatic movies to watch: The Green Mile (1999), The Notebook (2004), Dead Poets Society (1989), The Social Network (2010)",
+    "Of course! Check out these great drama movies: The Pianist (2002), Good Will Hunting (1997), The Imitation Game (2014), Million Dollar Baby (2004)",
+    "I personally enjoy drama movies that make me feel emotions I wouldn't usually feel in my everyday life. Do you have any specific genre within drama that you prefer?"
+  ]
+},
+      {
+          "tag": "romance movie",
+"patterns": [
+"I want to watch a romantic movie",
+"Any recommendations for a good romance?",
+"Suggest some romantic movies",
+"I'm in the mood for something heartwarming",
+"What are some popular romances?"
+],
+"responses": [
+"Sure, here are some romantics you might enjoy: The Notebook (2004), The Fault in Our Stars (2014), The Vow (2012), The Time Traveler's Wife (2009), A Walk to Remember (2002)",
+"Absolutely! Romantic movies to watch: La La Land (2016), About Time (2013), The Big Sick (2017), The Proposal (2009)",
+"Of course! Check out these: Pretty Woman (1990), When Harry Met Sally (1989), Love Actually (2003), The Princess Bride (1987)"
+]
+},
+      {
+    "tag": "action_movie",
+    "patterns": [
+      "I want to watch an action movie",
+      "Any recommendations action movie?",
+      "Suggest some action movies",
+      "I'm in the mood for something action-packed",
+      "What are some popular action movies?"
+    ],
+    "responses": [
+      "Sure, The Dark Knight (2008), Die Hard (1988), Mad Max: Fury Road (2015), Terminator 2: Judgment Day (1991), The Matrix (1999).",
+      "John Wick (2014), Mission: Impossible - Fallout (2018), Gladiator (2000), The Bourne Identity (2002), Lethal Weapon (1987).",
+      "Of course! Check out these great action movies: Raiders of the Lost Ark (1981), Kill Bill: Vol. 1 (2003), Crouching Tiger, Hidden Dragon (2000), The Raid: Redemption (2011), The Terminator (1984).",
+      "I personally enjoy action movies with thrilling chase scenes and epic fight scenes. What kind of action movie do you prefer?"
+    ]
+  },
     {
       "tag": "thanks",
       "patterns": [
